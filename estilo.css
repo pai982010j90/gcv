@@ -1,0 +1,49 @@
+/* 
+    Document   : estilo
+    Author     : nanohp
+    Description:
+        Aplicacion de estilo a la GCV.
+*/
+
+/* Selector de etiqueta 'h1'*/
+
+body{
+    background-color:aquamarine;
+}
+h1{
+    font-variant: small-caps;
+}
+
+/* Selector de clase 'usuario'*/
+.usuario{
+    color:red;
+    font-family: Verdana;
+}
+
+.experiencia{
+    color:green;
+}
+
+/* Selector descendiente directo y clase: los hijos directos 'ul' de elementos de clase 'experiencia' */
+.experiencia ul{
+    font-style: italic;
+}
+
+/* Selector de clase 'formacion'*/
+.formacion{
+    color:blue;
+}
+
+/* Selector descendiente directo y clase: los hijos directos 'ul' de elementos de clase 'formacion' */
+.formacion ul{
+    font-style: italic;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    font-style: italic;
+}
